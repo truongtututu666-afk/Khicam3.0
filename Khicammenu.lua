@@ -135,17 +135,17 @@ local plr = game:GetService("Players").LocalPlayer
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
 
 -- Thông báo chào mừng
-Notification.new("<Color=Yellow>Mùng Hai Tháng Chín rợp cờ,<Color=/>"):Display()
+Notification.new("<Color=Yellow>khỉ cam,<Color=/>"):Display()
 task.wait(1)
-Notification.new("<Color=Yellow>Non sông gấm vóc đợi chờ vươn xa.<Color=/>"):Display()
+Notification.new("<Color=Yellow>hé lô<Color=/>"):Display()
 task.wait(1)
-Notification.new("<Color=Yellow>Máu hồng bao thuở ông cha,<Color=/>"):Display()
+Notification.new("<Color=Yellow> skip,<Color=/>"):Display()
 task.wait(1)
-Notification.new("<Color=Yellow>Cho nay đất Việt ngọc ngà sáng tươi.<Color=/>"):Display()
+Notification.new("<Color=Yellow>skip.<Color=/>"):Display()
 task.wait(1)
-Notification.new("<Color=Yellow><Chúc Mừng Ngày Quốc Khánh><Color=/>"):Display()
+Notification.new("<Color=Yellow><khỉ cam><Color=/>"):Display()
 task.wait(1)
-Notification.new("<Color=Yellow>Mùng 2 Tháng 9<Color=/>"):Display()
+Notification.new("<Color=Yellow>khỉ cam hud9<Color=/>"):Display()
 task.wait(1)
 Notification.new("<Color=Yellow>HNC Roblox<Color=/>"):Display()
 task.wait(5)
@@ -157,7 +157,7 @@ local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 
 -- Tùy chỉnh
-local TEXT = "Fast Attack By HNC Roblox"
+local TEXT = "Fast Attack By khỉ cam Roblox"
 local TEXT_SIZE = 14                 -- kích thước chữ (không quá to)
 local GUI_OFFSET = Vector3.new(0, 1.8, 0) -- khoảng cách so với đầu
 local RAINBOW_SPEED = 1.0           -- tốc độ đổi màu (1 = bình thường, tăng để nhanh hơn)
