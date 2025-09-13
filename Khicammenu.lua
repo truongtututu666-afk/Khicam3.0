@@ -135,19 +135,19 @@ local plr = game:GetService("Players").LocalPlayer
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
 
 -- Thông báo chào mừng
-Notification.new("<Color=Yellow>khỉ cam,<Color=/>"):Display()
+Notification.new("<Color=Yellow>chào mừng bạn đến script của tôi,<Color=/>"):Display()
 task.wait(1)
-Notification.new("<Color=Yellow>hé lô<Color=/>"):Display()
+Notification.new("<Color=Yellow><quản trị viên> update khỉ cam<Color=/>"):Display()
 task.wait(1)
-Notification.new("<Color=Yellow> skip,<Color=/>"):Display()
+Notification.new("<Color=Yellow> 1,<Color=/>"):Display()
 task.wait(1)
-Notification.new("<Color=Yellow>skip.<Color=/>"):Display()
+Notification.new("<Color=Yellow>2.<Color=/>"):Display()
 task.wait(1)
-Notification.new("<Color=Yellow><khỉ cam><Color=/>"):Display()
+Notification.new("<Color=Yellow><3><Color=/>"):Display()
 task.wait(1)
-Notification.new("<Color=Yellow>khỉ cam hud9<Color=/>"):Display()
+Notification.new("<Color=Yellow>4<Color=/>"):Display()
 task.wait(1)
-Notification.new("<Color=Yellow>HNC Roblox<Color=/>"):Display()
+Notification.new("<Color=Yellow>5<Color=/>"):Display()
 task.wait(5)
 -- Anh em đổi thông báo ở trên nha vd: Notification.new("<Color=White>đổi thông báo chỗ này nè!<Color=/>"):Display()
 -- LocalScript (đặt trong StarterPlayerScripts)
@@ -341,7 +341,7 @@ if _G.FastAttack then
 
     local Settings = {
         AutoClick = true,
-        ClickDelay = 0.0000000000001
+        ClickDelay = 0.000000000000000000001
     }
 
     local Module = {}
@@ -3359,10 +3359,10 @@ end
 local library = {}
 
 _G.Color = Color3.fromRGB(0, 0, 255)
-_G.imageLogo = "rbxassetid://112528931029640"
-_G.Logo = "rbxassetid://112528931029640"
-_G.NameHub = "By HNC Roblox" -- ชื่อ Hub
-_G.Title = "HNC Hub" -- คำอธิบาย
+_G.imageLogo = "rbxassetid://132815391220143"
+_G.Logo = "rbxassetid://132815391220143"
+_G.NameHub = "By khỉ cam" -- ชื่อ Hub
+_G.Title = "khỉ cam Hub" -- คำอธิบาย
 -----------------------------------------------------------------
 
 local isUIEnabled = true 
@@ -3628,7 +3628,7 @@ Disc_Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Disc_Logo.BorderSizePixel = 0
 Disc_Logo.Position = UDim2.new(0, 5, 0, 1)
 Disc_Logo.Size = UDim2.new(0, 23, 0, 23)
-Disc_Logo.Image = "http://www.roblox.com/asset/?id=112528931029640"
+Disc_Logo.Image = "http://www.roblox.com/asset/?id=132815391220143"
 
 Disc_Title.Name = "Disc_Title"
 Disc_Title.Parent = Discord
@@ -3659,7 +3659,7 @@ end)
 
 -- Click event: copy Discord link
 Discord.MouseButton1Click:Connect(function()
-    (setclipboard or toclipboard)("https://www.tiktok.com/@hnc_roblox?_t=ZS-8ynuCFNpQyg&_r=1")
+    (setclipboard or toclipboard)("https://www.tiktok.com/@o.o.o.o137?_t=ZS-8zhJ4b5B7PJ&_r=1")
     wait(.1)
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Tik Tok",
